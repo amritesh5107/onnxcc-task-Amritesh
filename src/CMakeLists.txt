@@ -20,6 +20,7 @@ target_include_directories(onnxcc_lib
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_BINARY_DIR}
+        ${CMAKE_SOURCE_DIR}/cxxopts
 )
 
 target_compile_options(onnxcc_lib PRIVATE ${ONNXCC_WARNINGS})
