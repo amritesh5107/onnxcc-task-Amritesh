@@ -4,11 +4,13 @@
 # Re-include .gitignore
 !/.gitignore
 
-# '!' line marks a folder as active
+# Re-include project directories/files
 !/src/
+!/tests/
+!/cxxopts/
+!/scripts/
 !/README.md
 !/CMakeLists.txt
-!/tests/
 
 # Ignore these files and directories
 .DS_Store
@@ -18,5 +20,3 @@ build/
 *.a
 *.o
 *.obj
-*.bin
-*.onnx
